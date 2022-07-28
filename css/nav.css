@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    width: calc(100% - 40px);
+    height: 60px;
+    padding: 0 20px;
+    background: #222;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    line-height: 20px;
+    background-color: transparent;
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.507);
+    text-decoration: none;
+}
+
+nav a.alignRight {
+    margin-inline-start: auto;
+}
+
+nav a:hover {
+    box-shadow: 
+    0 0 25px rgb(51, 43, 77),
+    0 0 25px rgb(78, 53, 78);
+    background-color: #c5caca2d;
+    color: white;
+}
+nav a:active {
+    background-color:rgb(107, 102, 102);
+}

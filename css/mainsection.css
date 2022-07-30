@@ -8,7 +8,7 @@ main {
 
 main section {
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 main section a.product {
@@ -22,6 +22,7 @@ main section a.product {
     overflow: hidden;
     text-decoration: none;
     color: #000;
+    
 }
 main section a img.img {
     display: block;
@@ -36,15 +37,15 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
-@media only screen and (max-width: 1200px) {
-    main section.home a.product {
+@media only screen and (max-width: 1200px ) {
+    main section a.product {
         width: calc(33% - 40px);
     }
 }
 @media only screen and (max-width: 900px) {
-    main section.home a.product {
+    main section a.product {
         width: calc(50% - 40px);
     }
 }
@@ -53,5 +54,6 @@ div {
         width: calc(100% - 40px);
     }
 }
+
 
 

@@ -2,9 +2,9 @@ aside {
     width: 400px;
 }
 aside div.aside {
-    background-color: rgba(193, 224, 224, 0.363);
+    background-color: rgba(9, 67, 71, 0.301);
     width: auto;
-    height: 500px;
+    height: calc(100% - 40px);
     border: 30px;
     padding: 10px;
     margin: 10px;
@@ -21,5 +21,12 @@ aside a.aside-menu {
     background-color: transparent;
     transition: 0.3s;
     color: rgba(17, 15, 15, 0.507);
-    text-decoration: none;
+    text-decoration: hsl(hue, saturation, lightness);
+}
+aside a:hover {
+    box-shadow: 
+    0 0 25px rgba(7, 6, 8, 0.329),
+    0 0 25px rgba(34, 12, 34, 0.164);
+    background-color: #afd3d3a9;
+    color: rgba(17, 15, 15, 0.507);
 }

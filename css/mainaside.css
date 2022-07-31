@@ -1,7 +1,25 @@
-video {
-    width: 200px;
-    height:max-content;
-    margin: 5px;
-    padding: 5px;
-    
+aside {
+    width: 400px;
+}
+aside div.aside {
+    background-color: rgba(193, 224, 224, 0.363);
+    width: auto;
+    height: 500px;
+    border: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+aside a.aside-menu {
+    justify-content: left;
+    text-decoration: none;
+    flex-direction: row;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    line-height: 20px;
+    background-color: transparent;
+    transition: 0.3s;
+    color: rgba(17, 15, 15, 0.507);
+    text-decoration: none;
 }

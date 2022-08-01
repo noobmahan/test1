@@ -1,5 +1,7 @@
 aside {
     width: 400px;
+    background-image: url("../img/pattern.jpg");
+    border: 30px;
 }
 aside div.aside {
     background-color: rgba(9, 67, 71, 0.301);
@@ -20,8 +22,9 @@ aside a.aside-menu {
     line-height: 20px;
     background-color: transparent;
     transition: 0.3s;
-    color: rgba(17, 15, 15, 0.507);
+    color: rgb(0, 0, 0);
     text-decoration: hsl(hue, saturation, lightness);
+    font-size: larger;
 }
 aside a:hover {
     box-shadow: 
